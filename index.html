@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Y Noodle and Bar</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ORDER</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <div class="logo">
+                <img src="img/image0.png" width="400">
+            </div>
+            <h2>A modern spot in the Renaissance city where you can both unwind and savor authentic Asian cuisine.<br></h2>
+            <h4><br>Delivery and Pick up now available</h4>
+            <a href="#" class="hero-btn">Order NOW</a>
+        </div>
+    </section>
+    
+    <section class="info">
+        <h1>Visit us!</h1>
+        <div class="row">
+                <p class="info-col">425 West Fountain Street<br>Providence, RI 02903</p>
+                <p class="info-col">Open from 11:30 am - 11 pm <br>everyday except Tuesday</p>
+                <p class="info-col">401-661-9666</p>
+        </div>
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.368144678623!2d77.55384341419037!3d13.012212417508028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d7f3535d71b%3A0x660d25b66e9fb25c!2sWorld+Trade+Centre!5e0!3m2!1sen!2sin!4v1565255080367!5m2!1sen!2sin" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+<!---------- customer's favorite ---------->
+    
+    <section class="favorite">
+        <h1>Customers' Favorite</h1>
+            <div class="row">
+                <div class="favorite-col">
+                    <img src="img/noodle_trio.png">
+                    <div class="layer">
+                        <h3>Noodle Trio</h3>
+                    </div>
+                </div>
+                <div class="favorite-col">
+                    <img src="img/stewed-beef-hiyashi.png">
+                    <div class="layer">
+                        <h3>Stew Beef Hiyashi</h3>
+                    </div>
+                </div>
+                <div class="favorite-col">
+                    <img src="img/yuzu.png">
+                    <div class="layer">
+                        <h3>Yuzu Sorbert</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="favorite-col">
+                    <img src="img/wagyu.png">
+                    <div class="layer">
+                        <h3>Wagyu Beef</h3>
+                    </div>
+                </div>
+                <div class="favorite-col">
+                    <img src="img/squid.png">
+                    <div class="layer">
+                        <h3>Squid ink dumplings</h3>
+                    </div>
+                </div>
+                <div class="favorite-col">
+                    <img src="img/prosecco.png">
+                    <div class="layer">
+                        <h3>Prosecco</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<section class="subscribe">
+    <div class="subscription">
+        <h1>Subscribe</h1>
+        <h3>& get updates on special deals</h3>
+        <form class="subscription-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter email"><br>
+                <button type="submit" class="hero-btn">Subscribe!</button>
+        </form>
+    </div>  
+</section>
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>Y Noodle and Bar</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-yelp"></i></a>
+        </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
